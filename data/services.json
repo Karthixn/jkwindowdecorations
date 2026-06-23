@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "name": "Roller Blinds",
+      "tag": "Blinds",
+      "image": "assets/images/roller.jpg",
+      "alt": "Roller blinds installation",
+      "description": "Minimal, modern blinds ideal for homes and offices. Easy to operate, available in a wide range of fabrics and opacity levels."
+    },
+    {
+      "name": "Vertical Blinds",
+      "tag": "Blinds",
+      "image": "assets/images/vertical_blinds.jpg",
+      "alt": "Vertical blinds for large windows",
+      "description": "Perfect for large windows and sliding patio doors. Offers precise light and privacy control with a clean, professional look."
+    },
+    {
+      "name": "Venetian Blinds",
+      "tag": "Blinds",
+      "image": "assets/images/venetian_blinds.jpg",
+      "alt": "Venetian blinds with light control",
+      "description": "Classic horizontal slat blinds offering precise light control. Available in aluminium, wood, and faux-wood finishes."
+    },
+    {
+      "name": "Zebra Blinds",
+      "tag": "Blinds",
+      "image": "assets/images/zebra_blinds.jpg",
+      "alt": "Zebra blinds dual layer",
+      "description": "Dual-layer sheer and solid fabric blinds for flexible, adjustable light filtering — a stylish alternative to conventional blinds."
+    },
+    {
+      "name": "Roman Blinds",
+      "tag": "Blinds",
+      "image": "assets/images/romanblinds.jpg",
+      "alt": "Roman blinds soft fold",
+      "description": "Soft, folded fabric blinds that add a warm, structured elegance. Ideal for living rooms, bedrooms, and study spaces."
+    },
+    {
+      "name": "Curtains",
+      "tag": "Curtains",
+      "image": "assets/images/wave-curtain-tracks.jpg",
+      "alt": "Curtains and fabric drapes",
+      "description": "Elegant fabric drapes tailored to complement your interiors. Custom-made in a vast selection of fabrics, textures, and colours."
+    },
+    {
+      "name": "Ripple Curtains",
+      "tag": "Curtains",
+      "image": "assets/images/ripple.webp",
+      "alt": "Ripple curtains wave fold",
+      "description": "Wave-style curtains with uniform, flowing folds for a consistently refined and contemporary look in any room."
+    },
+    {
+      "name": "Track Curtains",
+      "tag": "Curtains",
+      "image": "assets/images/wave-curtain-tracks.jpg",
+      "alt": "Curtain track systems",
+      "description": "Smooth-glide ceiling-mounted curtain track systems for a seamless, floor-to-ceiling look in modern interiors."
+    },
+    {
+      "name": "Hospital Curtains",
+      "tag": "Specialised",
+      "image": "assets/images/hospital_curtains.jpg",
+      "alt": "Hospital curtains medical spaces",
+      "description": "Durable, hygienic, and antimicrobial curtains designed specifically for hospitals, clinics, and other medical environments."
+    }
+  ]
+}

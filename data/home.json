@@ -1,0 +1,33 @@
+{
+  "hero": {
+    "eyebrow": "Thiruvananthapuram, Kerala · Est. 2010",
+    "title_line1": "Elegance in",
+    "title_line2": "Every Window",
+    "subtitle": "Premium curtains, blinds, and bespoke window solutions crafted with precision — transforming homes and offices across Kerala."
+  },
+  "showcase": [
+    { "image": "assets/images/gallery1.png", "alt": "Elegant living room curtains", "caption": "Living Rooms" },
+    { "image": "assets/images/gallery2.jpg", "alt": "Modern blinds installation", "caption": "Modern Blinds" },
+    { "image": "assets/images/gallery3.jpg", "alt": "Luxury curtain installation", "caption": "Luxury Curtains" },
+    { "image": "assets/images/gallery4.jpg", "alt": "Office window solutions", "caption": "Office Spaces" },
+    { "image": "assets/images/gallery5.jpg", "alt": "Premium window finishes", "caption": "Premium Finishes" }
+  ],
+  "why_title": "Kerala's Most Trusted Window Experts",
+  "why_description": "With over 15 years of hands-on experience, we've transformed more than a thousand spaces with window solutions that marry beauty with everyday function.",
+  "stats": [
+    { "number": "15+", "label": "Years of Excellence" },
+    { "number": "1000+", "label": "Happy Clients" },
+    { "number": "9", "label": "Product Types" },
+    { "number": "100%", "label": "Satisfaction Rate" }
+  ],
+  "features": [
+    { "icon": "🎨", "title": "Custom Designs", "description": "Every installation is tailored to your space, style, and specific requirements — no two projects are the same." },
+    { "icon": "⭐", "title": "Premium Materials", "description": "Only the finest fabrics and hardware, carefully sourced for lasting durability and refined elegance." },
+    { "icon": "🔧", "title": "Expert Installation", "description": "Skilled professionals ensuring a perfect fit, flawless finish, and precise alignment every time." },
+    { "icon": "📞", "title": "After-Sales Support", "description": "Our commitment doesn't end at installation — we're here for maintenance and adjustments whenever you need." }
+  ],
+  "cta": {
+    "title": "Transform Your Space with Premium Window Decor",
+    "description": "Get expert guidance and a personalised quote — completely free, no obligation."
+  }
+}

@@ -1,0 +1,118 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+collections:
+  - name: "settings"
+    label: "Site Settings"
+    editor:
+      preview: false
+    files:
+      - name: "contact"
+        label: "Contact Info"
+        file: "data/contact.json"
+        fields:
+          - { name: "phone", label: "Phone Number", widget: "string" }
+          - { name: "whatsapp", label: "WhatsApp Display Number", widget: "string", hint: "e.g. +91 7907844890" }
+          - { name: "whatsapp_raw", label: "WhatsApp Number (digits only)", widget: "string", hint: "e.g. 917907844890 — used in wa.me links" }
+          - { name: "email", label: "Email Address", widget: "string" }
+          - { name: "location", label: "Location", widget: "string" }
+
+  - name: "pages"
+    label: "Pages"
+    editor:
+      preview: false
+    files:
+      - name: "home"
+        label: "Home Page"
+        file: "data/home.json"
+        fields:
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { name: "eyebrow", label: "Eyebrow Text", widget: "string", hint: "Small text above the title" }
+              - { name: "title_line1", label: "Title Line 1", widget: "string" }
+              - { name: "title_line2", label: "Title Line 2 (italic)", widget: "string" }
+              - { name: "subtitle", label: "Subtitle", widget: "text" }
+
+          - label: "Showcase Images"
+            name: "showcase"
+            widget: "list"
+            label_singular: "Image"
+            summary: "{{fields.caption}}"
+            fields:
+              - { name: "image", label: "Image", widget: "image" }
+              - { name: "alt", label: "Alt Text", widget: "string" }
+              - { name: "caption", label: "Caption", widget: "string" }
+
+          - { name: "why_title", label: "Why Us — Title", widget: "string" }
+          - { name: "why_description", label: "Why Us — Description", widget: "text" }
+
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            label_singular: "Stat"
+            summary: "{{fields.number}} — {{fields.label}}"
+            fields:
+              - { name: "number", label: "Number", widget: "string", hint: "e.g. 15+, 1000+, 100%" }
+              - { name: "label", label: "Label", widget: "string" }
+
+          - label: "Features"
+            name: "features"
+            widget: "list"
+            label_singular: "Feature"
+            summary: "{{fields.icon}} {{fields.title}}"
+            fields:
+              - { name: "icon", label: "Icon (emoji)", widget: "string" }
+              - { name: "title", label: "Title", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+
+          - label: "CTA Section"
+            name: "cta"
+            widget: "object"
+            fields:
+              - { name: "title", label: "CTA Title", widget: "string" }
+              - { name: "description", label: "CTA Description", widget: "text" }
+
+  - name: "services"
+    label: "Services"
+    editor:
+      preview: false
+    files:
+      - name: "services_list"
+        label: "All Services"
+        file: "data/services.json"
+        fields:
+          - label: "Services"
+            name: "items"
+            widget: "list"
+            label_singular: "Service"
+            summary: "{{fields.name}} ({{fields.tag}})"
+            fields:
+              - { name: "name", label: "Service Name", widget: "string" }
+              - { name: "tag", label: "Category Tag", widget: "select", options: ["Blinds", "Curtains", "Specialised"] }
+              - { name: "image", label: "Image", widget: "image" }
+              - { name: "alt", label: "Image Alt Text", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+
+  - name: "gallery"
+    label: "Gallery"
+    editor:
+      preview: false
+    files:
+      - name: "gallery_images"
+        label: "Gallery Images"
+        file: "data/gallery.json"
+        fields:
+          - label: "Images"
+            name: "items"
+            widget: "list"
+            label_singular: "Image"
+            summary: "{{fields.alt}}"
+            fields:
+              - { name: "image", label: "Image", widget: "image" }
+              - { name: "alt", label: "Alt Text / Caption", widget: "string" }

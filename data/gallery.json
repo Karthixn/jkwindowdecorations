@@ -1,0 +1,17 @@
+{
+  "items": [
+    { "image": "assets/images/gallery/curtains.jpg", "alt": "Custom curtain installation" },
+    { "image": "assets/images/gallery/gallery1.png", "alt": "Living room window treatment" },
+    { "image": "assets/images/gallery/ripple.webp", "alt": "Ripple curtains wave fold" },
+    { "image": "assets/images/gallery/hospital_curtains.jpg", "alt": "Hospital curtain installation" },
+    { "image": "assets/images/gallery/gallery2.jpg", "alt": "Modern blinds installation" },
+    { "image": "assets/images/gallery/romanblinds.jpg", "alt": "Roman blinds soft fold" },
+    { "image": "assets/images/gallery/zebra_blinds.jpg", "alt": "Zebra blinds dual layer" },
+    { "image": "assets/images/gallery/gallery3.jpg", "alt": "Luxury curtain project" },
+    { "image": "assets/images/gallery/venetian_blinds.jpg", "alt": "Venetian blinds installation" },
+    { "image": "assets/images/gallery/wave-curtain-tracks.jpg", "alt": "Wave curtain track system" },
+    { "image": "assets/images/gallery/gallery4.jpg", "alt": "Office window decoration" },
+    { "image": "assets/images/gallery/vertical_blinds.jpg", "alt": "Vertical blinds large window" },
+    { "image": "assets/images/gallery/gallery5.jpg", "alt": "Premium window finish" }
+  ]
+}
